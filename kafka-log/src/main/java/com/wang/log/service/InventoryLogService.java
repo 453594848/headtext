@@ -5,10 +5,6 @@ import brave.Tracer;
 import cn.hutool.core.util.IdUtil;
 import com.wang.log.mapper.InventoryLogMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.math.RandomUtils;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.commons.util.IdUtils;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -31,7 +27,7 @@ public class InventoryLogService {
         String traceIdString = Long.toUnsignedString(traceId);
         LocalDateTime time = LocalDateTime.now();
         inventoryLogMapper.insertLog(logMessage, time, traceIdString);
-        log.info("日志记录：{}", logMessage);
+        log.info("kafka日志记录：{}", logMessage);
     }
 
 
@@ -40,6 +36,6 @@ public class InventoryLogService {
         Long traceId = tracer.currentSpan().context().traceId();
         String uuid = IdUtil.randomUUID();
         inventoryLogMapper.insertLog(logMessage, time, uuid);
-        log.info("日志记录：{}", logMessage);
+        log.info("feign日志记录：{}", logMessage);
     }
 }
