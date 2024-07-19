@@ -24,7 +24,9 @@ spring:
     producer: #生产者配置
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
-
+  sleuth:
+    sampler:
+      probability: 1.0 # 采样率，1.0 表示所有请求都采样
 mybatis:
 #  type-aliases-package: cn.itcast.user.pojo
  configuration:

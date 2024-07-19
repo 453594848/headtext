@@ -16,6 +16,9 @@ spring:
       # auto-commit-interval: 1000
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  sleuth:
+    sampler:
+      probability: 1.0 # 采样率，1.0 表示所有请求都采样
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:

@@ -7,7 +7,7 @@ create table product_stock_47009
         primary key (sku_code)
 );
 CREATE TABLE log_message_47009 (
-    request_id BIGINT AUTO_INCREMENT PRIMARY KEY COMMENT '请求ID',
+    request_id VARCHAR(255) NOT NULL PRIMARY KEY COMMENT '请求ID',
     created DATETIME NOT NULL COMMENT '创建时间',
-    message VARCHAR(50) NOT NULL COMMENT '日志信息'
+    message VARCHAR(100) NOT NULL COMMENT '日志信息'
 );

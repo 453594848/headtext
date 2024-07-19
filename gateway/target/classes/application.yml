@@ -18,8 +18,14 @@ spring:
           uri: lb://inventory-order-service
           predicates: # 路由断言，也就是判断请求是否符合路由规则的条件
             - Path=/inventory/** # 这个是按照路径匹配，只要以/order/开头就会路由到order-service
-
-
+  sleuth:
+    sampler:
+      probability: 1.0 # 采样率，1.0 表示所有请求都采样
+  zipkin:
+    base-url: http://localhost:9411 # Zipkin 服务器地址
+logging:
+  level:
+    com.wang: debug
 
 #        - id: kafka-log-service
 #          uri: lb://kafka-log-service
