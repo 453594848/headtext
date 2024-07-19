@@ -1,0 +1,9 @@
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\InventoryOrderApplication.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\mapper\InventoryMapper.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\service\InventoryOrderService.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\pojo\Inventory.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\config\RedisConfig.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\controller\InventoryOrderController.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\config\RedissonConfig.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\aspect\LogAspect.java
+C:\Users\wang\IdeaProjects\cloud-demo\inventory-order-service\src\main\java\com\wang\order\result\Result.java

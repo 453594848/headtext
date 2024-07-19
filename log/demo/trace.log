@@ -1,0 +1,302 @@
+2024-07-19 10:13:39.679 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2024-07-19 10:13:40.132 INFO  wang.GatewayApplication                           :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-07-19 10:13:40.503 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m                  [0;39m BeanFactory id=688b81d6-4dd0-36a0-bb8f-33ad298f641f
+2024-07-19 10:13:40.541 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:13:40.549 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:13:40.551 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:13:40.614 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:13:40.614 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:13:40.617 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:13:40.617 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:13:40.662 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m                  [0;39m Eureka HTTP Client uses Jersey
+2024-07-19 10:13:41.362 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-07-19 10:13:41.363 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-07-19 10:13:41.364 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-19 10:13:41.707 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m                  [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:13:41.713 WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger:77   [32m                  [0;39m You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:13:41.759 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m                  [0;39m Setting initial instance status as: STARTING
+2024-07-19 10:13:41.780 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m                  [0;39m Initializing Eureka in region us-east-1
+2024-07-19 10:13:41.872 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m                  [0;39m Using JSON encoding codec LegacyJacksonJson
+2024-07-19 10:13:41.872 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m                  [0;39m Using JSON decoding codec LegacyJacksonJson
+2024-07-19 10:13:41.931 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m                  [0;39m Using XML encoding codec XStreamXml
+2024-07-19 10:13:41.931 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m                  [0;39m Using XML decoding codec XStreamXml
+2024-07-19 10:13:42.017 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:13:42.137 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m                  [0;39m Disable delta property : false
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m                  [0;39m Single vip registry refresh property : null
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m                  [0;39m Force full registry fetch : false
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m                  [0;39m Application is null : false
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m                  [0;39m Registered Applications size is zero : true
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m                  [0;39m Application version is -1: true
+2024-07-19 10:13:42.138 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m                  [0;39m Getting all instance registry info from the eureka server
+2024-07-19 10:13:42.239 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m                  [0;39m The response status is 200
+2024-07-19 10:13:42.241 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m                  [0;39m Starting heartbeat executor: renew interval is: 30
+2024-07-19 10:13:42.243 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m                  [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 10:13:42.245 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m                  [0;39m Discovery Client initialized at timestamp 1721355222244 with initial instances count: 4
+2024-07-19 10:13:42.246 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m                  [0;39m Registering application GATEWAY with eureka with status UP
+2024-07-19 10:13:42.246 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355222246, current=UP, previous=STARTING]
+2024-07-19 10:13:42.247 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:13:42.278 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:13:42.464 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m                  [0;39m Netty started on port(s): 9080
+2024-07-19 10:13:42.465 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m                  [0;39m Updating port to 9080
+2024-07-19 10:13:42.808 INFO  wang.GatewayApplication                           :61   [32m                  [0;39m Started GatewayApplication in 3.57 seconds (JVM running for 4.076)
+2024-07-19 10:13:53.226 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:14:09.578 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:18:42.154 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:20:27.853 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m                  [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2024-07-19 10:20:27.854 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355627854, current=DOWN, previous=UP]
+2024-07-19 10:20:27.854 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:20:27.868 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:20:29.945 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m                  [0;39m Shutting down DiscoveryClient ...
+2024-07-19 10:20:32.964 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m                  [0;39m Unregistering ...
+2024-07-19 10:20:32.980 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - deregister  status: 200
+2024-07-19 10:20:32.996 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m                  [0;39m Completed shut down of DiscoveryClient
+2024-07-19 10:20:38.286 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2024-07-19 10:20:38.739 INFO  wang.GatewayApplication                           :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-07-19 10:20:39.105 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m                  [0;39m BeanFactory id=e42fd20c-d017-3437-8cc4-20b0cf38e8ec
+2024-07-19 10:20:39.142 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:20:39.143 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:20:39.144 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:20:39.202 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:20:39.202 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:20:39.205 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:20:39.205 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:20:39.251 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m                  [0;39m Eureka HTTP Client uses Jersey
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-07-19 10:20:39.948 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-07-19 10:20:39.949 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-19 10:20:40.284 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m                  [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:20:40.291 WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger:77   [32m                  [0;39m You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:20:40.337 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m                  [0;39m Setting initial instance status as: STARTING
+2024-07-19 10:20:40.356 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m                  [0;39m Initializing Eureka in region us-east-1
+2024-07-19 10:20:40.445 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m                  [0;39m Using JSON encoding codec LegacyJacksonJson
+2024-07-19 10:20:40.446 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m                  [0;39m Using JSON decoding codec LegacyJacksonJson
+2024-07-19 10:20:40.509 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m                  [0;39m Using XML encoding codec XStreamXml
+2024-07-19 10:20:40.510 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m                  [0;39m Using XML decoding codec XStreamXml
+2024-07-19 10:20:40.605 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:20:40.724 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m                  [0;39m Disable delta property : false
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m                  [0;39m Single vip registry refresh property : null
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m                  [0;39m Force full registry fetch : false
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m                  [0;39m Application is null : false
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m                  [0;39m Registered Applications size is zero : true
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m                  [0;39m Application version is -1: true
+2024-07-19 10:20:40.725 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m                  [0;39m Getting all instance registry info from the eureka server
+2024-07-19 10:20:40.820 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m                  [0;39m The response status is 200
+2024-07-19 10:20:40.823 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m                  [0;39m Starting heartbeat executor: renew interval is: 30
+2024-07-19 10:20:40.824 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m                  [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 10:20:40.827 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m                  [0;39m Discovery Client initialized at timestamp 1721355640826 with initial instances count: 4
+2024-07-19 10:20:40.827 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m                  [0;39m Registering application GATEWAY with eureka with status UP
+2024-07-19 10:20:40.828 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355640828, current=UP, previous=STARTING]
+2024-07-19 10:20:40.829 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:20:40.854 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:20:41.047 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m                  [0;39m Netty started on port(s): 9080
+2024-07-19 10:20:41.048 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m                  [0;39m Updating port to 9080
+2024-07-19 10:20:41.387 INFO  wang.GatewayApplication                           :61   [32m                  [0;39m Started GatewayApplication in 3.545 seconds (JVM running for 4.031)
+2024-07-19 10:20:55.301 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:21:14.552 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m                  [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2024-07-19 10:21:14.553 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355674553, current=DOWN, previous=UP]
+2024-07-19 10:21:14.553 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:21:14.556 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:21:16.639 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m                  [0;39m Shutting down DiscoveryClient ...
+2024-07-19 10:21:19.651 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m                  [0;39m Unregistering ...
+2024-07-19 10:21:19.666 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - deregister  status: 200
+2024-07-19 10:21:19.680 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m                  [0;39m Completed shut down of DiscoveryClient
+2024-07-19 10:21:23.227 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2024-07-19 10:21:23.718 INFO  wang.GatewayApplication                           :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-07-19 10:21:24.067 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m                  [0;39m BeanFactory id=e42fd20c-d017-3437-8cc4-20b0cf38e8ec
+2024-07-19 10:21:24.107 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:21:24.108 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:21:24.109 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:21:24.179 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:21:24.179 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:21:24.182 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:21:24.182 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:21:24.219 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m                  [0;39m Eureka HTTP Client uses Jersey
+2024-07-19 10:21:24.926 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-07-19 10:21:24.927 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-07-19 10:21:24.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-07-19 10:21:24.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-07-19 10:21:24.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-19 10:21:24.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-07-19 10:21:24.928 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-19 10:21:25.291 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m                  [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:21:25.297 WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger:77   [32m                  [0;39m You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:21:25.342 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m                  [0;39m Setting initial instance status as: STARTING
+2024-07-19 10:21:25.360 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m                  [0;39m Initializing Eureka in region us-east-1
+2024-07-19 10:21:25.447 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m                  [0;39m Using JSON encoding codec LegacyJacksonJson
+2024-07-19 10:21:25.448 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m                  [0;39m Using JSON decoding codec LegacyJacksonJson
+2024-07-19 10:21:25.510 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m                  [0;39m Using XML encoding codec XStreamXml
+2024-07-19 10:21:25.510 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m                  [0;39m Using XML decoding codec XStreamXml
+2024-07-19 10:21:25.602 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:21:25.723 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m                  [0;39m Disable delta property : false
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m                  [0;39m Single vip registry refresh property : null
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m                  [0;39m Force full registry fetch : false
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m                  [0;39m Application is null : false
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m                  [0;39m Registered Applications size is zero : true
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m                  [0;39m Application version is -1: true
+2024-07-19 10:21:25.724 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m                  [0;39m Getting all instance registry info from the eureka server
+2024-07-19 10:21:25.828 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m                  [0;39m The response status is 200
+2024-07-19 10:21:25.830 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m                  [0;39m Starting heartbeat executor: renew interval is: 30
+2024-07-19 10:21:25.831 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m                  [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 10:21:25.833 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m                  [0;39m Discovery Client initialized at timestamp 1721355685833 with initial instances count: 4
+2024-07-19 10:21:25.834 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m                  [0;39m Registering application GATEWAY with eureka with status UP
+2024-07-19 10:21:25.834 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355685834, current=UP, previous=STARTING]
+2024-07-19 10:21:25.836 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:21:25.870 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:21:26.058 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m                  [0;39m Netty started on port(s): 9080
+2024-07-19 10:21:26.059 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m                  [0;39m Updating port to 9080
+2024-07-19 10:21:26.407 INFO  wang.GatewayApplication                           :61   [32m                  [0;39m Started GatewayApplication in 3.624 seconds (JVM running for 4.148)
+2024-07-19 10:21:33.754 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:23:39.255 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m                  [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2024-07-19 10:23:39.256 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355819256, current=DOWN, previous=UP]
+2024-07-19 10:23:39.257 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:23:39.273 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:23:41.347 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m                  [0;39m Shutting down DiscoveryClient ...
+2024-07-19 10:23:44.364 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m                  [0;39m Unregistering ...
+2024-07-19 10:23:44.380 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - deregister  status: 200
+2024-07-19 10:23:44.394 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m                  [0;39m Completed shut down of DiscoveryClient
+2024-07-19 10:23:48.248 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2024-07-19 10:23:48.704 INFO  wang.GatewayApplication                           :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-07-19 10:23:49.070 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m                  [0;39m BeanFactory id=e42fd20c-d017-3437-8cc4-20b0cf38e8ec
+2024-07-19 10:23:49.108 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:23:49.115 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:23:49.117 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:23:49.187 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:23:49.187 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:23:49.190 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:23:49.190 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:23:49.226 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m                  [0;39m Eureka HTTP Client uses Jersey
+2024-07-19 10:23:49.929 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-07-19 10:23:49.929 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-07-19 10:23:49.929 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-07-19 10:23:49.930 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-19 10:23:50.279 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m                  [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:23:50.285 WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger:77   [32m                  [0;39m You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:23:50.335 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m                  [0;39m Setting initial instance status as: STARTING
+2024-07-19 10:23:50.353 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m                  [0;39m Initializing Eureka in region us-east-1
+2024-07-19 10:23:50.442 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m                  [0;39m Using JSON encoding codec LegacyJacksonJson
+2024-07-19 10:23:50.442 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m                  [0;39m Using JSON decoding codec LegacyJacksonJson
+2024-07-19 10:23:50.508 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m                  [0;39m Using XML encoding codec XStreamXml
+2024-07-19 10:23:50.508 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m                  [0;39m Using XML decoding codec XStreamXml
+2024-07-19 10:23:50.600 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m                  [0;39m Disable delta property : false
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m                  [0;39m Single vip registry refresh property : null
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m                  [0;39m Force full registry fetch : false
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m                  [0;39m Application is null : false
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m                  [0;39m Registered Applications size is zero : true
+2024-07-19 10:23:50.754 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m                  [0;39m Application version is -1: true
+2024-07-19 10:23:50.755 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m                  [0;39m Getting all instance registry info from the eureka server
+2024-07-19 10:23:50.866 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m                  [0;39m The response status is 200
+2024-07-19 10:23:50.867 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m                  [0;39m Starting heartbeat executor: renew interval is: 30
+2024-07-19 10:23:50.869 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m                  [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 10:23:50.871 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m                  [0;39m Discovery Client initialized at timestamp 1721355830871 with initial instances count: 4
+2024-07-19 10:23:50.872 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m                  [0;39m Registering application GATEWAY with eureka with status UP
+2024-07-19 10:23:50.872 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355830872, current=UP, previous=STARTING]
+2024-07-19 10:23:50.874 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:23:50.897 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:23:51.096 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m                  [0;39m Netty started on port(s): 9080
+2024-07-19 10:23:51.098 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m                  [0;39m Updating port to 9080
+2024-07-19 10:23:51.439 INFO  wang.GatewayApplication                           :61   [32m                  [0;39m Started GatewayApplication in 3.646 seconds (JVM running for 4.131)
+2024-07-19 10:24:31.756 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:25:36.046 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m                  [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2024-07-19 10:25:36.047 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355936047, current=DOWN, previous=UP]
+2024-07-19 10:25:36.047 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:25:36.053 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:25:38.143 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m                  [0;39m Shutting down DiscoveryClient ...
+2024-07-19 10:25:41.154 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m                  [0;39m Unregistering ...
+2024-07-19 10:25:41.170 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - deregister  status: 200
+2024-07-19 10:25:41.182 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m                  [0;39m Completed shut down of DiscoveryClient
+2024-07-19 10:25:45.067 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.7.Final
+2024-07-19 10:25:45.520 INFO  wang.GatewayApplication                           :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-07-19 10:25:45.906 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m                  [0;39m BeanFactory id=e42fd20c-d017-3437-8cc4-20b0cf38e8ec
+2024-07-19 10:25:45.944 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:25:45.945 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:25:45.946 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-19 10:25:46.011 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:25:46.011 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:25:46.013 WARN  com.netflix.config.sources.URLConfigurationSource :126  [32m                  [0;39m No URLs will be polled as dynamic configuration sources.
+2024-07-19 10:25:46.013 INFO  com.netflix.config.sources.URLConfigurationSource :127  [32m                  [0;39m To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-07-19 10:25:46.058 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:78   [32m                  [0;39m Eureka HTTP Client uses Jersey
+2024-07-19 10:25:46.751 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-07-19 10:25:46.752 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-07-19 10:25:46.752 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-07-19 10:25:46.752 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-07-19 10:25:46.752 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-07-19 10:25:46.752 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-07-19 10:25:46.753 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :139  [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-07-19 10:25:47.117 WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108  [32m                  [0;39m You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:25:47.123 WARN  o.s.c.c.l.r.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger:77   [32m                  [0;39m You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-07-19 10:25:47.170 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :72   [32m                  [0;39m Setting initial instance status as: STARTING
+2024-07-19 10:25:47.187 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m                  [0;39m Initializing Eureka in region us-east-1
+2024-07-19 10:25:47.278 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m                  [0;39m Using JSON encoding codec LegacyJacksonJson
+2024-07-19 10:25:47.278 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m                  [0;39m Using JSON decoding codec LegacyJacksonJson
+2024-07-19 10:25:47.338 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m                  [0;39m Using XML encoding codec XStreamXml
+2024-07-19 10:25:47.338 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m                  [0;39m Using XML decoding codec XStreamXml
+2024-07-19 10:25:47.431 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m                  [0;39m Resolving eureka endpoints via configuration
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m                  [0;39m Disable delta property : false
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m                  [0;39m Single vip registry refresh property : null
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m                  [0;39m Force full registry fetch : false
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m                  [0;39m Application is null : false
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m                  [0;39m Registered Applications size is zero : true
+2024-07-19 10:25:47.547 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m                  [0;39m Application version is -1: true
+2024-07-19 10:25:47.548 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m                  [0;39m Getting all instance registry info from the eureka server
+2024-07-19 10:25:47.649 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m                  [0;39m The response status is 200
+2024-07-19 10:25:47.650 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m                  [0;39m Starting heartbeat executor: renew interval is: 30
+2024-07-19 10:25:47.652 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m                  [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-07-19 10:25:47.655 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m                  [0;39m Discovery Client initialized at timestamp 1721355947654 with initial instances count: 4
+2024-07-19 10:25:47.655 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m                  [0;39m Registering application GATEWAY with eureka with status UP
+2024-07-19 10:25:47.656 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721355947656, current=UP, previous=STARTING]
+2024-07-19 10:25:47.657 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:25:47.687 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:25:47.882 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m                  [0;39m Netty started on port(s): 9080
+2024-07-19 10:25:47.882 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m                  [0;39m Updating port to 9080
+2024-07-19 10:25:48.243 INFO  wang.GatewayApplication                           :61   [32m                  [0;39m Started GatewayApplication in 3.621 seconds (JVM running for 4.113)
+2024-07-19 10:26:04.270 INFO  wang.TestController                               :17   [32m                  [0;39m Processing request with traceId: null
+2024-07-19 10:28:33.074 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :65   [32m                  [0;39m Unregistering application GATEWAY with eureka with status DOWN
+2024-07-19 10:28:33.075 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m                  [0;39m Saw local status change event StatusChangeEvent [timestamp=1721356113075, current=DOWN, previous=UP]
+2024-07-19 10:28:33.075 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080: registering service...
+2024-07-19 10:28:33.093 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - registration status: 204
+2024-07-19 10:28:35.169 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m                  [0;39m Shutting down DiscoveryClient ...
+2024-07-19 10:28:38.179 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m                  [0;39m Unregistering ...
+2024-07-19 10:28:38.193 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m                  [0;39m DiscoveryClient_GATEWAY/host.docker.internal:gateway:9080 - deregister  status: 200
+2024-07-19 10:28:38.204 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m                  [0;39m Completed shut down of DiscoveryClient
